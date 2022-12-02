@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    animation-name: animasiEbat;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+}
+
+@keyframes animasiEbat {
+    from {background-color: blue;}
+    to {background-color: green;}
+}
